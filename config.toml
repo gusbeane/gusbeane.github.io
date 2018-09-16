@@ -21,3 +21,13 @@ theme = "coder"
     name = "Home"
     weight = 1
     url  = "/"
+
+[[menu.main]]
+    name = "Research"
+    weight = 2
+    url = "/research"
+
+[[menu.main]]
+    name = "Contact"
+    weight = 3
+    url = "/contact"
