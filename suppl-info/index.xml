@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Suppl-infos on Gus Beane</title>
-    <link>localhost:1313/suppl-info/</link>
+    <link>https://gusbeane.github.io/suppl-info/</link>
     <description>Recent content in Suppl-infos on Gus Beane</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="localhost:1313/suppl-info/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gusbeane.github.io/suppl-info/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Actions Are Weak Stellar Age Indicators in the Milky Way Disk</title>
-      <link>localhost:1313/suppl-info/2018apj-867-31b/</link>
+      <link>https://gusbeane.github.io/suppl-info/2018apj-867-31b/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/suppl-info/2018apj-867-31b/</guid>
+      <guid>https://gusbeane.github.io/suppl-info/2018apj-867-31b/</guid>
       <description>Angus Beane, Melissa K. Ness, Megan Bedell
 ApJ arXiv: 1807.05986 ADS: 2018ApJ&amp;hellip;867&amp;hellip;31B
 Animated versions of Figures 5 and 6.    Figure 5. While young stars are clumped in action/velocity space, old stars are spread out - but not preferentially towards any part of action/velocity space.
