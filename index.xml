@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gus Beane</title>
@@ -17,7 +17,7 @@
       <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://gusbeane.github.io/posts/theme-demo/</guid>
-      <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
+      <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
 This is bold text
 This is italic text
 This is italic text
@@ -68,8 +68,8 @@ Follow the following steps:
       
       <guid>https://gusbeane.github.io/posts/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
     <item>
@@ -89,7 +89,7 @@ I am primarily interested in the interpretation of complicated datasets with num
       
       <guid>https://gusbeane.github.io/suppl-info/2018apj-867-31b/</guid>
       <description>Angus Beane, Melissa K. Ness, Megan Bedell
-ApJ arXiv: 1807.05986 ADS: 2018ApJ&amp;hellip;867&amp;hellip;31B
+_ApJ_arXiv: 1807.05986ADS: 2018ApJ&amp;hellip;867&amp;hellip;31B
 Animated versions of Figures 5 and 6.    Figure 5. While young stars are clumped in action/velocity space, old stars are spread out - but not preferentially towards any part of action/velocity space.
    Figure 6. Each subplot rotates, to better visualize the 3D plot. While previosuly we only considered slices in action space, this 3D plots shows that there is no clear distinction in the entirety of action space between young and old stars.</description>
     </item>
@@ -100,7 +100,7 @@ Animated versions of Figures 5 and 6.    Figure 5. While young stars are clumped
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gusbeane.github.io/contact/</guid>
-      <description>var username = &#34;angus.beane&#34;; var hostname = &#34;cfa.harvard.edu&#34;; var linktext = username + &#34;@&#34; + hostname ; document.write(&#34;&#34; + linktext + &#34;&#34;);  </description>
+      <description></description>
     </item>
     
     <item>
@@ -111,6 +111,16 @@ Animated versions of Figures 5 and 6.    Figure 5. While young stars are clumped
       <guid>https://gusbeane.github.io/research/</guid>
       <description>A full list of publications can be found on ADS or my CV.
 I am broadly interested in the interpretation of complicated datasets, particularly in the role and fidelity of numerical simulations in the pursuit of that goal. In the near-term, this means laying down a path to understanding the current and imminent surveys of the Milky Way. In the long-term, this will lead me to the elusive Epoch of Reionization.</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://gusbeane.github.io/slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gusbeane.github.io/slides/</guid>
+      <description>Dynamically Dating Stars Based on Actions are weak stellar age indicators in the Milky Way disk
+Feb 17, 2020: UW-Madison Lunch Talk</description>
     </item>
     
   </channel>
