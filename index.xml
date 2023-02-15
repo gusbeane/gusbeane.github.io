@@ -6,25 +6,22 @@
     <description>Recent content on Gus Beane</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://gusbeane.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 08 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://gusbeane.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Theme Demo</title>
       <link>https://gusbeane.github.io/posts/theme-demo/</link>
       <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://gusbeane.github.io/posts/theme-demo/</guid>
-      <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+      <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
 This is bold text
 This is italic text
 This is italic text
 Deleted text
 This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
 $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+Heading Another heading text text text text text text Block quotes are written like so.
+They can span multiple paragraphs, if you like.</description>
     </item>
     
     <item>
@@ -58,7 +55,7 @@ Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
 Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
 Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
     </item>
     
     <item>
@@ -68,8 +65,8 @@ Follow the following steps:
       
       <guid>https://gusbeane.github.io/posts/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
     <item>
@@ -78,7 +75,7 @@ Follow the following steps:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gusbeane.github.io/about/</guid>
-      <description>I am a first-year graduate student in astronomy at Harvard University.
+      <description>I am a third-year graduate student in astronomy at Harvard University.
 I am primarily interested in the interpretation of complicated datasets with numerical simulations. This has led me to my interests in the Milky Way and the Epoch of Reionization, both of which either currently have or will soon have enormous datasets with no clear path towards their interpretation. As I begin my PhD, these will be my focus.</description>
     </item>
     
@@ -89,9 +86,9 @@ I am primarily interested in the interpretation of complicated datasets with num
       
       <guid>https://gusbeane.github.io/suppl-info/2018apj-867-31b/</guid>
       <description>Angus Beane, Melissa K. Ness, Megan Bedell
-_ApJ_arXiv: 1807.05986ADS: 2018ApJ&amp;hellip;867&amp;hellip;31B
-Animated versions of Figures 5 and 6.    Figure 5. While young stars are clumped in action/velocity space, old stars are spread out - but not preferentially towards any part of action/velocity space.
-   Figure 6. Each subplot rotates, to better visualize the 3D plot. While previosuly we only considered slices in action space, this 3D plots shows that there is no clear distinction in the entirety of action space between young and old stars.</description>
+ApJ arXiv: 1807.05986 ADS: 2018ApJ&amp;hellip;867&amp;hellip;31B
+Animated versions of Figures 5 and 6. Figure 5. While young stars are clumped in action/velocity space, old stars are spread out - but not preferentially towards any part of action/velocity space.
+Figure 6. Each subplot rotates, to better visualize the 3D plot. While previosuly we only considered slices in action space, this 3D plots shows that there is no clear distinction in the entirety of action space between young and old stars.</description>
     </item>
     
     <item>
