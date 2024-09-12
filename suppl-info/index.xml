@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Suppl-infoes on Gus Beane</title>
+    <title>Suppl-Infoes on Gus Beane</title>
     <link>https://gusbeane.github.io/suppl-info/</link>
-    <description>Recent content in Suppl-infoes on Gus Beane</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://gusbeane.github.io/suppl-info/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Suppl-Infoes on Gus Beane</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://gusbeane.github.io/suppl-info/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Actions Are Weak Stellar Age Indicators in the Milky Way Disk</title>
       <link>https://gusbeane.github.io/suppl-info/2018apj-867-31b/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://gusbeane.github.io/suppl-info/2018apj-867-31b/</guid>
-      <description>Angus Beane, Melissa K. Ness, Megan Bedell
-ApJ arXiv: 1807.05986 ADS: 2018ApJ&amp;hellip;867&amp;hellip;31B
-Animated versions of Figures 5 and 6. Figure 5. While young stars are clumped in action/velocity space, old stars are spread out - but not preferentially towards any part of action/velocity space.
-Figure 6. Each subplot rotates, to better visualize the 3D plot. While previosuly we only considered slices in action space, this 3D plots shows that there is no clear distinction in the entirety of action space between young and old stars.</description>
+      <description>&lt;p&gt;&lt;em&gt;Angus Beane, Melissa K. Ness, Megan Bedell&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;ApJ&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&#xA;arXiv: &lt;a href=&#34;https://arxiv.org/abs/1807.05986&#34;&gt;1807.05986&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&#xA;ADS: &lt;a href=&#34;http://adsabs.harvard.edu/abs/2018ApJ...867...31B&#34;&gt;2018ApJ&amp;hellip;867&amp;hellip;31B&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;animated-versions-of-figures-5-and-6&#34;&gt;Animated versions of Figures 5 and 6.&lt;/h2&gt;&#xA;&lt;p&gt;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/c70DXWdp9rQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;strong&gt;Figure 5.&lt;/strong&gt; While young stars are clumped in action/velocity space, old stars are spread out - but not preferentially towards any part of action/velocity space.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
