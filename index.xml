@@ -2,74 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gus Beane</title>
-    <link>https://gusbeane.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Gus Beane</description>
     <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 08 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gusbeane.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Theme Demo</title>
-      <link>https://gusbeane.github.io/posts/theme-demo/</link>
-      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://gusbeane.github.io/posts/theme-demo/</guid>
-      <description>&lt;h2 id=&#34;style-demo&#34;&gt;Style Demo&lt;/h2&gt;&#xA;&lt;h1 id=&#34;h1-heading&#34;&gt;h1 Heading&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2-heading&#34;&gt;h2 Heading&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3-heading&#34;&gt;h3 Heading&lt;/h3&gt;&#xA;&lt;h4 id=&#34;h4-heading&#34;&gt;h4 Heading&lt;/h4&gt;&#xA;&lt;h5 id=&#34;h5-heading&#34;&gt;h5 Heading&lt;/h5&gt;&#xA;&lt;h6 id=&#34;h6-heading&#34;&gt;h6 Heading&lt;/h6&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;del&gt;Deleted text&lt;/del&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\sum_{n=1}^{\infty} 2^{-n} = 1&#xA;$$&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Heading&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Another heading&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;text&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;text&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;text&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;text&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;text&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;text&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Block quotes are&#xA;written like so.&lt;/p&gt;&#xA;&lt;p&gt;They can span multiple paragraphs,&#xA;if you like.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Creating a New Theme</title>
-      <link>https://gusbeane.github.io/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>https://gusbeane.github.io/posts/creating-a-new-theme/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://gusbeane.github.io/posts/hugo-template-primer/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://gusbeane.github.io/posts/hugo-template-primer/</guid>
-      <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for&#xA;its template engine. It is an extremely lightweight engine that provides a very&#xA;small amount of logic. In our experience that it is just the right amount of&#xA;logic to be able to create a good static website. If you have used other&#xA;template systems from different languages or frameworks you will find a lot of&#xA;similarities in go templates.&lt;/p&gt;&#xA;&lt;p&gt;This document is a brief primer on using go templates. The &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;go docs&lt;/a&gt;&#xA;provide more details.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://gusbeane.github.io/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://gusbeane.github.io/posts/hugoisforlovers/</guid>
-      <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the&#xA;appropriate version for your os and architecture.&lt;/p&gt;&#xA;&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;&#xA;&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://gusbeane.github.io/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;&#xA;&lt;p&gt;Hugo has its own example site which happens to also be the documentation site&#xA;you are reading right now.&lt;/p&gt;&#xA;&lt;p&gt;Follow the following steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Clone the &lt;a href=&#34;http://github.com/spf13/hugo&#34;&gt;hugo repository&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Go into the repo&lt;/li&gt;&#xA;&lt;li&gt;Run hugo in server mode and build the docs&lt;/li&gt;&#xA;&lt;li&gt;Open your browser to http://localhost:1313&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Corresponding pseudo commands:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://gusbeane.github.io/posts/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://gusbeane.github.io/posts/migrate-from-jekyll/</guid>
-      <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.&#xA;With Jekyll, something that looked like&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xA;    ▾ images/&#xA;        logo.png&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;should become&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xA;    ▾ static/&#xA;        ▾ images/&#xA;            logo.png&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;</description>
-    </item>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://gusbeane.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://gusbeane.github.io/about/</guid>
-      <description>&lt;p&gt;I am a sixth-year graduate student in astronomy at Harvard University.&lt;/p&gt;&#xA;&lt;p&gt;I am primarily interested in the formation and evolution of the Milky Way. I use idealized simulations to study specific questions about the Milky Way. I have shown with a simulation of a Milky Way-like barred galaxy that the braking interaction between the bar and the dark matter halo &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2023ApJ...953..173B/abstract&#34;&gt;could be arrested by the Milky Way&amp;rsquo;s gas phase&lt;/a&gt;, explaining how it is both old and fast.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Actions Are Weak Stellar Age Indicators in the Milky Way Disk</title>
-      <link>https://gusbeane.github.io/suppl-info/2018apj-867-31b/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://gusbeane.github.io/suppl-info/2018apj-867-31b/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Angus Beane, Melissa K. Ness, Megan Bedell&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;ApJ&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&#xA;arXiv: &lt;a href=&#34;https://arxiv.org/abs/1807.05986&#34;&gt;1807.05986&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&#xA;ADS: &lt;a href=&#34;http://adsabs.harvard.edu/abs/2018ApJ...867...31B&#34;&gt;2018ApJ&amp;hellip;867&amp;hellip;31B&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;animated-versions-of-figures-5-and-6&#34;&gt;Animated versions of Figures 5 and 6.&lt;/h2&gt;&#xA;&lt;p&gt;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/c70DXWdp9rQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;strong&gt;Figure 5.&lt;/strong&gt; While young stars are clumped in action/velocity space, old stars are spread out - but not preferentially towards any part of action/velocity space.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I am a sixth-year graduate student in astronomy at Harvard University.&lt;/p&gt;&#xA;&lt;p&gt;I am primarily interested in the formation and evolution of the Milky Way. I use idealized simulations to study specific questions about the Milky Way. I have shown with a simulation of a Milky Way-like barred galaxy that the braking interaction between the bar and the dark matter halo &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2023ApJ...953..173B/abstract&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;could be arrested by the Milky Way&amp;rsquo;s gas phase&lt;/a&gt;, explaining how it is both old and fast.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://gusbeane.github.io/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://gusbeane.github.io/contact/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;mailto:angus.beane@cfa.harvard.edu&#34;&gt;angus.beane@cfa.harvard.edu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;mailto:angus.beane@cfa.harvard.edu&#34; &gt;angus.beane@cfa.harvard.edu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>Slides</title>
-      <link>https://gusbeane.github.io/slides/</link>
+      <link>http://localhost:1313/slides/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://gusbeane.github.io/slides/</guid>
-      <description>&lt;h2 id=&#34;dynamically-dating-stars&#34;&gt;Dynamically Dating Stars&lt;/h2&gt;&#xA;&lt;p&gt;Oct 19, 2020: &lt;a href=&#34;https://drive.google.com/drive/folders/1lpNMTpR7OOjsIKUS5T8h-el6BDCyp7ix&#34;&gt;MIT Lunch Talk&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Feb 17, 2020: &lt;a href=&#34;https://drive.google.com/drive/folders/1HcCFt3MtV1Zuv4nUmwrAeYiJEj3g8JCV?usp=sharing&#34;&gt;UW-Madison Lunch Talk&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Based on &lt;a href=&#34;https://arxiv.org/abs/1807.05986&#34;&gt;Actions Are Weak Stellar Age Indicators in the Milky Way Disk&lt;/a&gt; and &lt;a href=&#34;https://arxiv.org/abs/2005.09387&#34;&gt;Exploring the evolution of stellar rotation using Galactic kinematics&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/slides/</guid>
+      <description>&lt;h2 id=&#34;dynamically-dating-stars&#34;&gt;&#xA;  Dynamically Dating Stars&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#dynamically-dating-stars&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Oct 19, 2020: &lt;a href=&#34;https://drive.google.com/drive/folders/1lpNMTpR7OOjsIKUS5T8h-el6BDCyp7ix&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT Lunch Talk&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Feb 17, 2020: &lt;a href=&#34;https://drive.google.com/drive/folders/1HcCFt3MtV1Zuv4nUmwrAeYiJEj3g8JCV?usp=sharing&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UW-Madison Lunch Talk&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Based on &lt;a href=&#34;https://arxiv.org/abs/1807.05986&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Actions Are Weak Stellar Age Indicators in the Milky Way Disk&lt;/a&gt; and &lt;a href=&#34;https://arxiv.org/abs/2005.09387&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Exploring the evolution of stellar rotation using Galactic kinematics&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
